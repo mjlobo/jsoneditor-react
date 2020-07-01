@@ -83,6 +83,7 @@ export default class Editor extends Component {
     }
 
     componentDidMount() {
+        console.log("my component did mount")
         const {
             allowedModes,
             innerRef,
